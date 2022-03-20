@@ -1,0 +1,111 @@
+.container {
+    width: auto;
+    max-width: 1900px;
+    position: relative;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.main-curriculum{
+    color: #363636;
+    position: absolute;
+    text-align: justify;
+    line-height: 1.2em;
+    top: 0px;
+    left: 0px;
+    width: 70%;
+}
+
+.main-curriculum-box{
+    font-size: 1em;
+    padding: 2% 2% 0.5% 2%;
+}
+
+.self-description{
+    font-style: italic;
+    padding: 0 1%;
+}
+
+.main-curriculum-title{
+    color: #012d58;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    box-sizing:border-box;
+    border-color: #363636;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-style: solid;
+    padding: 1.5%;
+    padding-left: 1%;
+    margin: 0.5em 0;
+}
+
+.period{
+    display: inline-block;
+    width: 20%;
+    text-align: left; 
+    vertical-align: top;
+    padding-left: 1%;
+    margin-top: 0.5em;
+}
+
+.infos{
+    display: inline-block;
+    width: 75%;
+}
+
+.infos .title{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.infos .company{
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 0.5em;
+
+}
+
+.infos .description{
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 980px){
+    .main-curriculum{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .main-curriculum{
+        width: 60%;
+    }
+
+    .infos{
+        width: 70%;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .main-curriculum{
+        width: 52%;
+    }
+
+    .period{
+        width: 25%;
+    }
+
+    .infos{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-curriculum{
+        position: static;
+        width: 100%;
+    }
+}

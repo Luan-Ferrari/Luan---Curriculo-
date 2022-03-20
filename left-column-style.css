@@ -1,0 +1,81 @@
+.left-column{
+    background: #003c78;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+}
+
+.left-column-box{
+   font-size: 1em;
+   margin-bottom: 0.7em;
+   padding: 4%;
+}
+
+.name{
+    font-size: 3em;
+}
+
+.photo{
+     width: auto;
+}
+
+.function{
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+.title-left-column{
+    background: #012d58;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: auto;
+    margin: -4%;
+    margin-bottom: 0.5em;
+    padding: 4%;
+    /**"margin -4%" para compensar o padding de ".left-column-box" e a faixa escura ocupar todo espaço**/
+}
+
+.personal-information .title{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+.personal-information .item{
+    margin-bottom: 0.2em;
+}
+
+.skills .title{
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.skills .item{
+    font-size: 2em;
+}
+
+@media screen and (max-width: 980px){
+    .left-column{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .left-column{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .left-column{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .left-column{
+        position: static;
+        width: 100%;
+    }
+}
